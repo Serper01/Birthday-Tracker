@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D5178872A9DE93F00F663BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5178862A9DE93F00F663BB /* AppDelegate.swift */; };
+		9D5178892A9DE93F00F663BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5178882A9DE93F00F663BB /* SceneDelegate.swift */; };
+		9D51788B2A9DE93F00F663BB /* AddBirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D51788A2A9DE93F00F663BB /* AddBirthdayViewController.swift */; };
+		9D51788E2A9DE93F00F663BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D51788C2A9DE93F00F663BB /* Main.storyboard */; };
+		9D5178912A9DE93F00F663BB /* Birthday_Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D51788F2A9DE93F00F663BB /* Birthday_Tracker.xcdatamodeld */; };
+		9D5178932A9DE94100F663BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D5178922A9DE94100F663BB /* Assets.xcassets */; };
+		9D5178962A9DE94100F663BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D5178942A9DE94100F663BB /* LaunchScreen.storyboard */; };
+		9D5178BC2AA5098A00F663BB /* BirthdaysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5178BB2AA5098A00F663BB /* BirthdaysTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D51789D2A9DE94100F663BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D51787B2A9DE93F00F663BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D5178822A9DE93F00F663BB;
+			remoteInfo = "Birthday Tracker";
+		};
+		9D5178A72A9DE94100F663BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D51787B2A9DE93F00F663BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D5178822A9DE93F00F663BB;
+			remoteInfo = "Birthday Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D5178832A9DE93F00F663BB /* Birthdays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Birthdays.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D5178862A9DE93F00F663BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D5178882A9DE93F00F663BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9D51788A2A9DE93F00F663BB /* AddBirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBirthdayViewController.swift; sourceTree = "<group>"; };
+		9D51788D2A9DE93F00F663BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D5178902A9DE93F00F663BB /* Birthday_Tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Birthday_Tracker.xcdatamodel; sourceTree = "<group>"; };
+		9D5178922A9DE94100F663BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D5178952A9DE94100F663BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D5178972A9DE94100F663BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D51789C2A9DE94100F663BB /* BirthdaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthdaysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D5178A62A9DE94100F663BB /* BirthdaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthdaysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D5178BB2AA5098A00F663BB /* BirthdaysTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BirthdaysTableViewController.swift; path = ../../BirthdaysTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D5178802A9DE93F00F663BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D5178992A9DE94100F663BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D5178A32A9DE94100F663BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D51787A2A9DE93F00F663BB = {
+			isa = PBXGroup;
+			children = (
+				9D5178852A9DE93F00F663BB /* Birthday Tracker */,
+				9D5178842A9DE93F00F663BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D5178842A9DE93F00F663BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D5178832A9DE93F00F663BB /* Birthdays.app */,
+				9D51789C2A9DE94100F663BB /* BirthdaysTests.xctest */,
+				9D5178A62A9DE94100F663BB /* BirthdaysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D5178852A9DE93F00F663BB /* Birthday Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				9D5178862A9DE93F00F663BB /* AppDelegate.swift */,
+				9D5178882A9DE93F00F663BB /* SceneDelegate.swift */,
+				9D51788A2A9DE93F00F663BB /* AddBirthdayViewController.swift */,
+				9D51788C2A9DE93F00F663BB /* Main.storyboard */,
+				9D5178922A9DE94100F663BB /* Assets.xcassets */,
+				9D5178942A9DE94100F663BB /* LaunchScreen.storyboard */,
+				9D5178972A9DE94100F663BB /* Info.plist */,
+				9D51788F2A9DE93F00F663BB /* Birthday_Tracker.xcdatamodeld */,
+				9D5178BB2AA5098A00F663BB /* BirthdaysTableViewController.swift */,
+			);
+			path = "Birthday Tracker";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D5178822A9DE93F00F663BB /* Birthdays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D5178B02A9DE94100F663BB /* Build configuration list for PBXNativeTarget "Birthdays" */;
+			buildPhases = (
+				9D51787F2A9DE93F00F663BB /* Sources */,
+				9D5178802A9DE93F00F663BB /* Frameworks */,
+				9D5178812A9DE93F00F663BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Birthdays;
+			productName = "Birthday Tracker";
+			productReference = 9D5178832A9DE93F00F663BB /* Birthdays.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D51789B2A9DE94100F663BB /* BirthdaysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D5178B32A9DE94100F663BB /* Build configuration list for PBXNativeTarget "BirthdaysTests" */;
+			buildPhases = (
+				9D5178982A9DE94100F663BB /* Sources */,
+				9D5178992A9DE94100F663BB /* Frameworks */,
+				9D51789A2A9DE94100F663BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D51789E2A9DE94100F663BB /* PBXTargetDependency */,
+			);
+			name = BirthdaysTests;
+			productName = "Birthday TrackerTests";
+			productReference = 9D51789C2A9DE94100F663BB /* BirthdaysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D5178A52A9DE94100F663BB /* BirthdaysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D5178B62A9DE94100F663BB /* Build configuration list for PBXNativeTarget "BirthdaysUITests" */;
+			buildPhases = (
+				9D5178A22A9DE94100F663BB /* Sources */,
+				9D5178A32A9DE94100F663BB /* Frameworks */,
+				9D5178A42A9DE94100F663BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D5178A82A9DE94100F663BB /* PBXTargetDependency */,
+			);
+			name = BirthdaysUITests;
+			productName = "Birthday TrackerUITests";
+			productReference = 9D5178A62A9DE94100F663BB /* BirthdaysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D51787B2A9DE93F00F663BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					"Add Birthday",
+				);
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9D5178822A9DE93F00F663BB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					9D51789B2A9DE94100F663BB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 9D5178822A9DE93F00F663BB;
+					};
+					9D5178A52A9DE94100F663BB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 9D5178822A9DE93F00F663BB;
+					};
+				};
+			};
+			buildConfigurationList = 9D51787E2A9DE93F00F663BB /* Build configuration list for PBXProject "Birthdays" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D51787A2A9DE93F00F663BB;
+			productRefGroup = 9D5178842A9DE93F00F663BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D5178822A9DE93F00F663BB /* Birthdays */,
+				9D51789B2A9DE94100F663BB /* BirthdaysTests */,
+				9D5178A52A9DE94100F663BB /* BirthdaysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D5178812A9DE93F00F663BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5178962A9DE94100F663BB /* LaunchScreen.storyboard in Resources */,
+				9D5178932A9DE94100F663BB /* Assets.xcassets in Resources */,
+				9D51788E2A9DE93F00F663BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D51789A2A9DE94100F663BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D5178A42A9DE94100F663BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D51787F2A9DE93F00F663BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5178BC2AA5098A00F663BB /* BirthdaysTableViewController.swift in Sources */,
+				9D51788B2A9DE93F00F663BB /* AddBirthdayViewController.swift in Sources */,
+				9D5178872A9DE93F00F663BB /* AppDelegate.swift in Sources */,
+				9D5178892A9DE93F00F663BB /* SceneDelegate.swift in Sources */,
+				9D5178912A9DE93F00F663BB /* Birthday_Tracker.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D5178982A9DE94100F663BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D5178A22A9DE94100F663BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D51789E2A9DE94100F663BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D5178822A9DE93F00F663BB /* Birthdays */;
+			targetProxy = 9D51789D2A9DE94100F663BB /* PBXContainerItemProxy */;
+		};
+		9D5178A82A9DE94100F663BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D5178822A9DE93F00F663BB /* Birthdays */;
+			targetProxy = 9D5178A72A9DE94100F663BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D51788C2A9DE93F00F663BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D51788D2A9DE93F00F663BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D5178942A9DE94100F663BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D5178952A9DE94100F663BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D5178AE2A9DE94100F663BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D5178AF2A9DE94100F663BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D5178B12A9DE94100F663BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Birthday Tracker/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Game.Birthday-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D5178B22A9DE94100F663BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Birthday Tracker/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Game.Birthday-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9D5178B42A9DE94100F663BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Game.Birthday-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Birthdays.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Birthdays";
+			};
+			name = Debug;
+		};
+		9D5178B52A9DE94100F663BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Game.Birthday-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Birthdays.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Birthdays";
+			};
+			name = Release;
+		};
+		9D5178B72A9DE94100F663BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Game.Birthday-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Birthday Tracker";
+			};
+			name = Debug;
+		};
+		9D5178B82A9DE94100F663BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Game.Birthday-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Birthday Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D51787E2A9DE93F00F663BB /* Build configuration list for PBXProject "Birthdays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D5178AE2A9DE94100F663BB /* Debug */,
+				9D5178AF2A9DE94100F663BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D5178B02A9DE94100F663BB /* Build configuration list for PBXNativeTarget "Birthdays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D5178B12A9DE94100F663BB /* Debug */,
+				9D5178B22A9DE94100F663BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D5178B32A9DE94100F663BB /* Build configuration list for PBXNativeTarget "BirthdaysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D5178B42A9DE94100F663BB /* Debug */,
+				9D5178B52A9DE94100F663BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D5178B62A9DE94100F663BB /* Build configuration list for PBXNativeTarget "BirthdaysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D5178B72A9DE94100F663BB /* Debug */,
+				9D5178B82A9DE94100F663BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9D51788F2A9DE93F00F663BB /* Birthday_Tracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9D5178902A9DE93F00F663BB /* Birthday_Tracker.xcdatamodel */,
+			);
+			currentVersion = 9D5178902A9DE93F00F663BB /* Birthday_Tracker.xcdatamodel */;
+			path = Birthday_Tracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9D51787B2A9DE93F00F663BB /* Project object */;
+}
